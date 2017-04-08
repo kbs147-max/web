@@ -59,7 +59,7 @@ if (isset($_SESSION['code'])) {
 
 
 
-
+<?php
 echo '<p class="h2 groupName" style="color: whitesmoke"> Запостить себе на стену';
 echo '<form action ="" method = "post">';
 echo '<div class = "center-block" style = "width: 700px; margin-bottom: 20px;">';
