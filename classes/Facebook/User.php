@@ -52,5 +52,10 @@ class user
     {
         return $this->id;
     }
+	  public function printPicture()
+    {
+        if (!is_bool($this->picture))
+            echo '<img src="http://graph.facebook.com/' . $this->getID() . '/picture?type=large">';
+    }
 }
 ?>
